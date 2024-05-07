@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style_index.css">
+    <link rel="shortcut icon" href="/images/icons/cadeado_icon.svg" type="image/x-icon">
+    <!--Biblioteca externa para barra de carregamento-->
+    <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+    <link rel="stylesheet" href="/css/style_loading_bar.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="limite">
+        <div class="janela">
+            <figure class="cadeado_icon">
+                <img src="/images/icons/cadeado_icon.svg" alt="icone_cadeado">
+            </figure>
+            <div class="janelinha">
+                <h2>Entre com Usuário e senha para acessar o sistema</h2>
+                <form id="loginForm" method="POST">
+                    <div class="campo_tela_login">
+                        <figure>
+                            <img src="/images/icons/login_icon.svg" alt="icone_de_pessoa" class="icones_login">
+                        </figure>
+                        <input type="text" name="nome" id="nome" placeholder="Usuário">
+                    </div>
+                    <div class="campo_tela_login">
+                        <figure>
+                            <img src="/images/icons/senha_icon.svg" alt="icone_de_chave" class="icones_login">
+                        </figure>
+                        <input type="password" name="senha" id="senha" placeholder="Senha">
+                    </div>
+                    <div>
+                        <button type="submit" class="botao" id="submitBtn">Entrar</button>
+                    </div>
+                </form>
+                <p id="errorMessage" style="color: red; display: none;">Credenciais inválidas. Tente novamente.</p>
+            </div>
+        </div>
+    </div>
+    <img src="/images/logo_vassouras.png" alt="logo_vassouras" class="vassouras_logo">
+    <script src="/js/script.js"></script>
+</body>
+</html>

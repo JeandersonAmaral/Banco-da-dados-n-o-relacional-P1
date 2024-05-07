@@ -1,0 +1,88 @@
+{
+    "folder-color.pathColors": [
+        {
+            "folderPath": "Projeto_P1\\src\\",
+            "color": "foldercolorizer.red"
+        },
+        {
+            "folderPath": "Projeto_P1\\package.json\\",
+            "color": "foldercolorizer.red"
+        },
+        {
+            "folderPath": "Projeto_P1\\node_modules\\",
+            "color": "foldercolorizer.red"
+        },
+        {
+            "folderPath": "Projeto_P1\\Flask\\",
+            "color": "foldercolorizer.blue"
+        },
+        {
+            "folderPath": "Projeto_P1\\font\\",
+            "color": "foldercolorizer.green"
+        },
+        {
+            "folderPath": "Projeto_P1\\images\\",
+            "color": "foldercolorizer.green"
+        },
+        {
+            "folderPath": "Projeto_P1\\js\\",
+            "color": "foldercolorizer.green"
+        },
+        {
+            "folderPath": "Projeto_P1\\css\\",
+            "color": "foldercolorizer.green"
+        },
+        {
+            "folderPath": "Projeto_P1\\package-lock.json\\",
+            "color": "foldercolorizer.red"
+        },
+        {
+            "folderPath": "Projeto_P1\\acerto.html\\",
+            "color": "foldercolorizer.red"
+        },
+        {
+            "folderPath": "Projeto_P1\\index.html\\",
+            "color": "foldercolorizer.red"
+        },
+        {
+            "folderPath": "Projeto_P1\\settings.py\\",
+            "color": "foldercolorizer.blue"
+        },
+        {
+            "folderPath": "Projeto_P1\\secrets\\",
+            "color": "foldercolorizer.blue"
+        },
+        {
+            "folderPath": "Projeto_P1\\app.py\\",
+            "color": "foldercolorizer.blue"
+        },
+        {
+            "folderPath": "Projeto_P1\\templates\\",
+            "color": "foldercolorizer.blue"
+        },
+        {
+            "folderPath": "Projeto_P1\\static\\",
+            "color": "foldercolorizer.blue"
+        },
+        {
+            "folderPath": "Projeto_P1\\env\\",
+            "color": "foldercolorizer.blue"
+        },
+        {
+            "folderPath": "Projeto_P1\\.pytest_cache\\",
+            "color": "foldercolorizer.blue"
+        },
+        {
+            "folderPath": "Projeto_P1\\__pycache__\\",
+            "color": "foldercolorizer.blue"
+        },
+        {
+            "folderPath": "Projeto_P1\\public\\",
+            "color": "foldercolorizer.blue"
+        },
+        {
+            "folderPath": "Projeto_P1\\Node\\",
+            "color": "foldercolorizer.red"
+        }
+    ]
+}

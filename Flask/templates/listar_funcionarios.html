@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='cadeado_icon.svg') }}">
+</head>
+
+<body>
+    <div class="centralize">
+        <div class="fundo_form">
+            <h1>FUNCIONÁRIOS CADASTRADOS</h1>
+            {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+            <ul class="flashes">
+                {% for category, message in messages %}
+                <li class="flash-{{ category }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% endwith %}
+            <ul class="lista">
+                {% for funcionario in funcionarios %}
+                <li>{{ funcionario[1] }} {{ funcionario[2] }}</li>
+                {% endfor %}
+            </ul>
+            <a href="{{ url_for('novo_funcionario') }}"><button> + Novo Funcionario</button></a>
+            <div>
+                <a href="http://127.0.0.1:5000"><button>HOME</button></a>
+            </div>
+        </div>
+    </div>
+    <figure>
+        <img src="/static/logo_vassouras.png" alt="logo_vassouras" class="logo">
+    </figure>
+</body>
+
+</html>
